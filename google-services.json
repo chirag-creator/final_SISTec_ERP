@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "896080215454",
+    "firebase_url": "https://kuchbhione-bc2d4.firebaseio.com",
+    "project_id": "kuchbhione-bc2d4",
+    "storage_bucket": "kuchbhione-bc2d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896080215454:android:301afaf2d4cfb9c6",
+        "android_client_info": {
+          "package_name": "com.example.server.sistecerp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896080215454-9klqc2k8bqa60n3ht9c29bu6hnntksuf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.server.sistecerp",
+            "certificate_hash": "988fa1baf5752863d20bfe1fb3844a0affcfc213"
+          }
+        },
+        {
+          "client_id": "896080215454-knihc79ccsn8uciud1ti3bc5f91kbvc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZKBbQ1snCXYAM3joL4fBOr4g8keUGDxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896080215454-knihc79ccsn8uciud1ti3bc5f91kbvc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

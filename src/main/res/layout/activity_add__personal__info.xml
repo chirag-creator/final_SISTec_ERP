@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+
+    android:background="@drawable/gradient_3"
+    android:orientation="vertical"
+    tools:context=".Add_Personal_Info">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/a_dark_wedding__2007"
+            android:maxLines="1"
+        android:id="@+id/sname"
+            android:textAlignment="textStart"
+            android:backgroundTint="#000000"
+            android:hint="Enter Full Name"
+            android:singleLine="true"
+            android:textSize="20sp"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobnum"
+            android:ems="10"
+            android:fontFamily="@font/a_dark_wedding__2007"
+            android:maxLines="1"
+
+            android:textAlignment="textStart"
+            android:backgroundTint="#000000"
+            android:hint="Enter Mobile Number"
+            android:singleLine="true"
+            android:textSize="20sp"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/a_dark_wedding__2007"
+        android:maxLines="1"
+        android:id="@+id/address"
+
+        android:textAlignment="textStart"
+        android:backgroundTint="#000000"
+        android:hint="Address"
+        android:singleLine="true"
+        android:textSize="20sp"
+
+        />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedbackground"
+        android:id="@+id/submit"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

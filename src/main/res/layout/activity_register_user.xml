@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+
+    android:background="@drawable/gradient_list"
+    tools:context=".RegisterUser"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/a_dark_wedding__2007"
+            android:maxLines="1"
+            android:id="@+id/Reg_Enroll"
+            android:textAlignment="textStart"
+            android:backgroundTint="#000000"
+            android:hint="Enter Enrollment Number"
+            android:singleLine="true"
+            android:textSize="20sp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLines="1"
+            android:id="@+id/Reg_Email"
+            android:textAlignment="textStart"
+            android:backgroundTint="#000000"
+            android:hint="Enter Email"
+            android:fontFamily="@font/a_dark_wedding__2007"
+            android:singleLine="true"
+            android:textSize="20sp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        app:passwordToggleEnabled="true"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:id="@+id/Reg_pass"
+            android:textAlignment="textStart"
+            android:backgroundTint="#000000"
+
+            android:hint="Enter Password"
+            android:singleLine="true"
+            android:textSize="20sp"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/Reg_btn"
+        android:textColor="#ffffff"
+
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/roundedbackground"
+        android:text="Register"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

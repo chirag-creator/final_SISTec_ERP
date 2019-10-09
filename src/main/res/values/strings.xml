@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SISTec ERP</string>
+    <string name="e">LOGIN FORM</string>
+    <string name="Open">open</string>
+
+    <string name="Close">close</string>
+    <string name="view_profile">View Profile</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>
